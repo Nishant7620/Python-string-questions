@@ -2,6 +2,6 @@
 
 s = input("enter a string: ")
 
-s=s.replace(",",".")
+new_str = s.replace(",",".")
 
-print(s)
+print(new_str)
