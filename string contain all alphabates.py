@@ -4,4 +4,8 @@
 #You may assume that the string doesn't contain any other symbols, only spaces (possibly).
 #Consider these letters as part of the alphabet: 'abcdefghijklmnopqrstuvwxyz
 
+import string
 str = input("enter a string:")
+s =set(str.lower())
+
+
